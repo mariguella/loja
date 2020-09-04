@@ -62,14 +62,14 @@ img {
 	margin: 0 auto;
 	grid-gap: 20px;
 }
-.grid1 > div:nth-child(n + 4) {
+.grid1 div:nth-child(n + 4) {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	grid-gap: 10px;
 	align-items: center;
 
 }
-.grid1 > div.anuncio {
+.grid1 div.anuncio {
 	grid-column: 1;
 	grid-row: 2 / 5;
 	border-top: 10px solid tomato;
@@ -79,11 +79,43 @@ img {
 	.grid1 {
 		grid-template-columns: repeat(2, 1fr); 
 	}
-	grid1 > div:nth-child(n + 4) {
+	.grid1  div:nth-child(n + 4) {
 		display: block;
 	}
-	.grid1 > div.anuncio {
+	.grid1  div.anuncio {
 		grid-column: auto;
 		grid-row: auto;
 	}
 }
+/* CSS Grid 2 */
+.grid2 {
+	display: grid;
+	grid-template-columns: 1fr 200px;
+	grid-gap: 20px;
+	max-width: 800px;
+	padding: 10px;
+	margin: 0 auto;
+}
+.sidebar > div {
+	margin-bottom: 10px;
+
+}
+@media (max-width: 600px) {
+	.grid2 {
+		grid-template-columns: 1fr;
+	}
+	.sidebar {
+		display: flex;
+		overflow: scroll;
+	}
+	.sidebar > div {
+		flex: 1 0 200px;
+		margin: 0 10px;
+	}
+}
+/*section grid 2*/
+.grid3 {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+}
+.gird3-item: nth-child(1);
