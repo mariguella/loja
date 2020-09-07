@@ -1,0 +1,66 @@
+html{
+  height: 100%;
+}
+body{
+	font-family: arial;
+	font-size: 14px;
+	margin: 0;
+	padding: 0;
+	background-color: #ccc;
+	min-height: 100%;
+
+}
+/*
+*
+*
+Estilo para o conteudo do nosso site
+*
+*
+*/
+html,body{
+	height: 100%;
+}
+.bg{
+	/*
+	width: 600px;
+	margin:0 auto;
+	height: 35vh;
+	background-image:url('https://image.freepik.com/fotos-gratis/tabela-de-madeira-de-brown-no-fundo-verde-da-natureza-do-borrao_31965-1641.jpg');
+	background-color: red;
+	background-repeat: no-repeat;	
+	background-position: center;
+	background-size: 498px 228px;
+	background-repeat: no-repeat;
+
+	*/
+}
+.box{
+
+	width: 100%;
+	margin:80px auto;
+	text-align: center;
+	background-color: rgb(220,230,250);
+}
+
+.item{
+	/*
+	width: 33.3333%;
+	margin-right: -4px;
+	*/
+	width: 100%;
+
+
+
+}
+.item img{
+	width: 100%;
+
+}
+.item > p{
+	background-color: purple;
+
+	text-align: left;
+}
+.lest{
+	margin-right: 0;
+}
