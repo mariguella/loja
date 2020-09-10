@@ -1,0 +1,89 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.box{
+	display: table;
+	width: 900px;
+	margin: 0 auto;
+	border-collapse: collapse;
+}
+
+.box2{
+	display: table-row;
+}
+.box3{
+	height: 300px;
+	text-align: center;
+	vertical-align: middle;
+	border:1px solid black;
+	display: table-cell;
+}
+
+/*
+.box{
+	width: 200px;
+	padding: 30px 2%;
+	background-color: rgb(220,220,220);
+	position: relative;
+}
+.box p{
+	word-break: : keep-all;
+	display: inline;
+	border-bottom: 2px solid green;
+	color: #444;
+	font-size: 13px;
+}
+
+.box{
+	width: 30%;
+	padding-top: 30%;
+	background-color: red;
+	margin: 50px auto;
+	border-radius: 100%;
+}
+
+.box{
+
+	transform:translate(-50%, -50%);
+	width: 40%;
+	max-width: 200px;
+	height: 100px;
+	border:3px solid #ccc;
+	border-radius: 8px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	animation-name: animacao;
+	animation-duration: 4s;
+
+
+}
+.box > img{
+	left: 100%;
+	width: 100%;
+}
+.box:hover{
+	transition: 2s;
+	transform:translate(-50%, -50%) rotateX(180deg) /* scale(1.9);
+	}
+
+@keyframes animacao{
+	20%{
+		transform:translate(-50%, -50%) rotateX(20deg)
+	}
+	50%{
+		transform:translate(-50%, -50%) rotateX(100deg)
+	}
+	80%{
+		transform:translate(-50%, -50%) rotateX(180deg)
+
+	}
+	100%{
+		transform:translate(-50%, -50%) rotateX(280deg)
+	}
+}
+
+*/
