@@ -1,0 +1,173 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family:'Montserrat', sans-serif;
+}
+
+html,body{
+	height: 100%;
+}
+
+.clear{
+	clear: both;
+}
+
+.conteiner {
+	max-width: 1400px;
+	width: 100%;
+	margin:0 auto;
+}
+/**header do site**/
+
+header{
+	padding: 1px 2%;
+	background: -moz-linear-gradient(left,  rgba(206,252,0,0.72) 14%, rgba(206,252,0,0.73) 19%, rgba(78,183,0,0.79) 73%, rgba(17,150,0,0.79) 99%);
+	background: -webkit-linear-gradient(left,  rgba(206,252,0,0.72) 14%,rgba(206,252,0,0.73) 19%,rgba(78,183,0,0.79) 73%,rgba(17,150,0,0.79) 99%);
+	background: linear-gradient(to right,  rgba(206,252,0,0.72) 14%,rgba(206,252,0,0.73) 19%,rgba(78,183,0,0.79) 73%,rgba(17,150,0,0.79) 99%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startcolorstr='#b8cefc00', endColorstr='#c9119600',GradientType=1 );
+}
+header .logo{
+	padding: 0 auto;
+	display: flex;
+	margin-left: 30px;
+}
+
+header .logo h1{
+	padding: 0 auto;
+	font-size: 50px;
+	font-family:'Long Cang', cursive;
+	position: relative;
+}
+
+header .logo h2{
+
+	float: left;
+	width: 160px;
+	font-family:'Long Cang', cursive;
+	font-size: 25px;
+	line-height: 0.7;
+	margin-top: 20px;
+	position: absolute;
+
+
+}
+
+nav.menu-mobile{
+	float: right;
+	width: 28px;
+	height: 28px;
+	margin-top:7px;
+	cursor: pointer;
+	background-image: url('../imagens/menu-mobile.png');
+	background-size:100% 100%;
+	display: none;
+}
+
+nav.menu-mobile ul{
+	display: inline;
+	z-index: 999;
+	text-align: center;
+	width: 100%;
+	position: absolute;
+	left: 0;
+	top: 60px;
+	background-color: white;
+}
+
+nav.menu-mobile ul li{
+	text-transform: uppercase;
+}
+
+nav.menu-mobile ul li{
+	padding:10px 0;
+}
+
+header nav.menu-desktop{
+	float: right;	
+
+}
+
+header nav.menu-desktop ul{
+	display: inline;
+	padding: 8px 0;
+	list-style-type: none;
+}
+
+header nav.menu-desktop li{
+	float: left;
+	font-size: 14px;
+	padding: 0 20px;
+	text-transform: uppercase;
+
+}
+
+header ul a{
+	color: black;
+	text-decoration: none;
+
+
+}
+
+/****/
+
+section.section{
+	width: 460px;
+	height: 1000px;
+	
+}
+section .nav{
+width: 22%;
+height: 100%;
+max-width: 190px;
+max-height: 460px;
+min-width: 150px;
+display: flex;
+	flex-direction: row;
+	
+
+	
+}
+.nav-conteiner{
+width: 95%;
+height: 100%;
+background: -moz-linear-gradient(-45deg,  rgba(237,249,0,0.76) 1%, rgba(208,245,0,0.76) 10%, rgba(84,229,0,0.4) 48%, rgba(64,226,0,0.46) 54%, rgba(29,170,0,0.79) 88%, rgba(17,150,0,0.79) 100%);
+background: -webkit-linear-gradient(-45deg,  rgba(237,249,0,0.76) 1%,rgba(208,245,0,0.76) 10%,rgba(84,229,0,0.4) 48%,rgba(64,226,0,0.46) 54%,rgba(29,170,0,0.79) 88%,rgba(17,150,0,0.79) 100%);
+background: linear-gradient(135deg,  rgba(237,249,0,0.76) 1%,rgba(208,245,0,0.76) 10%,rgba(84,229,0,0.4) 48%,rgba(64,226,0,0.46) 54%,rgba(29,170,0,0.79) 88%,rgba(17,150,0,0.79) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c2edf900', endColorstr='#c9119600',GradientType=1 );
+
+
+}
+.nav-img-list{
+width: 100%;
+height: 25%;
+border: 1px solid white;
+
+background-size: 100% 100%;
+}
+
+
+.nav-img-list a{
+	width: 100%;
+	height: 100%;
+	display: block;
+	cursor: pointer;
+	
+	background-size: 100%;
+}
+
+/** fim da section nav**/
+section .conteiner-baner{
+	width: 100%;
+	height: 100%;
+	max-height: 350px;
+	max-width: 600px;
+}
+.baner{
+width: 80px;
+height: 350px;
+
+	background-image: url('../imagens/baner1.jpg');
+	background-size: 100% 100%;
+
+}
